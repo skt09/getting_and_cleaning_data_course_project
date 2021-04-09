@@ -5,9 +5,9 @@ This repository includes the submission of Getting and Cleaning Data Course Proj
 The  Dataset is from UCI named Human Activity Recognition Dataset [here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Files
-* CodeBook.md: Describes all the variables, data, and all the operations I have performed on the data
+* <code> CodeBook.md </code>: Describes all the variables, data, and all the operations I have performed on the data
 
-*run_analysis.R: This is a R script which performs the required tasks-
+* <code> run_analysis.R </code>: This is a R script which performs the required tasks-
 
 ***
 1. Load the data into R.
@@ -18,4 +18,4 @@ The  Dataset is from UCI named Human Activity Recognition Dataset [here] (http:/
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ***
 
-*processed_data.txt: Contains the Processed Data after analysis according to the Step 6 in the run_analysis.R
+* processed_data.txt: Contains the Processed Data after analysis according to the Step 6 in the run_analysis.R

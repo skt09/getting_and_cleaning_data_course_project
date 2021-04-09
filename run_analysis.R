@@ -41,7 +41,7 @@ names(TidyData) <- gsub("std", "STD", names(TidyData))
 
 # From TidyData Dataset, creating a second, independent tidy data set 
 # with the average of each variable for each activity and each subject
-FinalData <- TidyData %>% group_by(subject, activity) %>%
+processed_data <- TidyData %>% group_by(subject, activity) %>%
   summarise_all(list(mean = mean))
-names(FinalData) <- gsub("_mean", "", names(FinalData))
-write.table(FinalData, file = "processed_data.txt", row.names = FALSE)
+names(processed_data) <- gsub("_mean", "", names(processed_data))
+write.table(processed_data, file = "processed_data.txt", row.names = FALSE)

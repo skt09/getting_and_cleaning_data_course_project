@@ -5,7 +5,7 @@ The **run_analysis.R** script contains the steps for the analysis as per instruc
 ***
 1. **Loading Datasets into R**
 ***
-   *  features <- features.txt : 561 rows, 2 columns 
+    * features <- features.txt : 561 rows, 2 columns 
         The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
     * activity <- activity_labels.txt : 6 rows, 2 columns 
         List of activities performed when the corresponding measurements were taken and its codes (labels)
